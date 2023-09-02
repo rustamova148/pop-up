@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1250468726.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="overlay"></div>
+        <button class="show-modal hidden1">Show Modal</button>
+        <div class="modal-box hidden2">
+           <i class="fa-solid fa-x"></i>
+           <i class="fa-regular fa-circle-check"></i>
+           <h2>Completed</h2>
+           <h3>You have succesfully downloaded <span>all the source code files.</span></h3>
+           <div class="buttons">
+            <button class="close-btn">Ok,Close</button>
+            <input type="file" id="file-input" name="file-input"/>
+            <label id="file-input-label" for="file-input">Open File</label>
+           </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

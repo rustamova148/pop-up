@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hidden1{
+    display: none;
+}
+.hidden2{
+    display: none;
+}
+
+.show-modal{
+    margin-left:630px;
+    margin-top: 300px;
+    background-color: rgb(97, 97, 204);
+    border: none;
+    color:white;
+    width:130px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    background-color: rgba(2, 4, 44, 0.3);
+    opacity: 0;
+    z-index: -1;
+}
+
+.modal-box{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width:330px;
+    height:250px;
+    margin-left:536px;
+    margin-top: 200px;
+    position:relative;
+}
+.fa-circle-check{
+    margin-left: 145px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: rgb(48, 14, 197);
+    width:0;
+    height:60px;
+}
+
+.fa-circle-check::before{
+    position: absolute;
+    top:40px;
+    left:149px;
+}
+.modal-box>h2{
+    margin-left: 109px;
+    margin-bottom: 10px;
+}
+.modal-box>h3{
+    margin-left: 38px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+}
+.modal-box>h3>span{
+    margin-left: 30px;
+}
+.close-btn{
+    background-color: rgb(48, 14, 197);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    height: 30px;
+    width:70px;
+    margin-left: 86px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#file-input{
+display: none;
+}
+
+#file-input-label{
+    width:110px;
+    background-color: rgb(48, 14, 197);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.fa-x{
+position:absolute;
+left:298px;
+top:16px;
+cursor: pointer;
+}
